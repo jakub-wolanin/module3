@@ -1,0 +1,30 @@
+@import url('vendor/bootstrap-grid.css');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.photo-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 700px;
+    margin-bottom: 120px;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
