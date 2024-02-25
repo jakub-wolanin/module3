@@ -28,3 +28,53 @@ body {
         z-index: -1;
     }
 }
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 685px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    font-size: 15px;
+
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.splash {
+    text-align: center;
+    color: #fff;
+}
+
+.page-title {
+    font-size: 35px;
+}
+
+.page-subtitle {
+    font-size: 60px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 65px;
+    width: 240px;
+    
+}
