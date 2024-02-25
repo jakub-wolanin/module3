@@ -230,3 +230,108 @@ body {
     background: #333;
     transition: background 0.3s ease-in-out;
 }
+
+@media only screen and (max-width: 768px) {
+    .navigation {
+        margin: 0;
+        text-align: center;
+    }
+
+    .navigation li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .photo-container {
+        margin-bottom: 80px;
+    }
+
+    .splash {
+        padding: 50px;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
+
+    .page-subtitle {
+        font-size: 40px;
+    }
+
+    .btn {
+        width: 200px;
+        height: 50px;
+    }
+
+    .icon {
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .py-5 h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .py-5 p {
+        margin-bottom: 40px;
+    }
+
+    .gallery .container {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .portfolio-item img {
+        height: 200px;
+    }
+
+    .portfolio-item h4 {
+        margin-top: 0.5rem;
+    }
+
+    .gallery h2 {
+        font-size: 25px;
+    }
+
+    .gallery h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .gallery p {
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .footer li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
